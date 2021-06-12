@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    background-image: url(Images/background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width:100%;
+    padding: 40px 0;
+    /*background-color: yellow;*/
+}
+
+.logo{
+    font-size: 30px;
+    padding: 20px 100px;
+    letter-spacing: 3px;
+    float: left;
+}
+
+.logo1{
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h3 a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px grey;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+
+.list{
+    padding: 20px;
+}
+
+#home{
+    /*background-color: rgb(159, 231, 34);*/
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#about{
+    /*background-color: rgb(159, 231, 34);*/
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#contact{
+    /*background-color: rgb(159, 231, 34);*/
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#login{
+    background-color: #7abe63;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px black;
+}
+
+#home:hover{
+    background-color: #cfcbc7;
+}
+
+#about:hover{
+    background-color: #cfcbc7;
+}
+
+#contact:hover{
+    background-color: #cfcbc7;
+}
+
+#login:hover{
+    background-color: #82c86b;
+}
+
+
+.container{
+    border: 2px solid;
+    background-color: white;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    border-radius: 30px;
+    padding: 40px 30px;
+    left: 160px;
+    top: 120px;
+    box-shadow: 2px 2px grey;
+}
+
+.container h3{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+p{
+    text-align: justify;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
